@@ -22,4 +22,4 @@ Run the script with your domain name.  It is important to note this script only 
 sudo ./changeip.sh subdomain.example.com
 ```
 ## Thank yous
-Thank you https://github.com/edrapac and https://github.com/smooklu for you help
+Thank you https://github.com/edrapac and https://github.com/smooklu for your help
