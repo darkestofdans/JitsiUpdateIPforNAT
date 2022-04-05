@@ -17,7 +17,7 @@ Add:
 0 */8 * * * /path/to/file/updateip.sh subdomain.example.com
 ```
 ## Usage
-Run the script with your domain name.  It is important to note this script only works when using a subdomain such as subdomain.example.com.
+Run the script with your domain name.  It is important to note this script only works when using a subdomain such as subdomain.example.com.  The /etc/jitsi/videobridge/sip-communicator.properties file will need to have org.ice4j.ice.harvest.NAT_HARVESTER_PUBLIC_ADDRESS as the last line of the file.
 ```
 sudo ./changeip.sh subdomain.example.com
 ```
